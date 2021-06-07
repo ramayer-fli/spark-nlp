@@ -816,7 +816,7 @@ SparkNLP.version()
 
 val testData = spark.createDataFrame(Seq(
 (1, "Google has announced the release of a beta version of the popular TensorFlow machine learning library"),
-(2, "Donald John Trump (born June 14, 1946) is the 45th and current president of the United States")
+(2, "Donald John Trump (born June 14, 1946) is the 45th and former president of the United States")
 )).toDF("id", "text")
 
 val pipeline = PretrainedPipeline("explain_document_dl", lang="en")
