@@ -59,7 +59,7 @@ embeddings = annotator
 
 
 def start(gpu=False, spark23=False, spark24=False, memory="16G", real_time_output=False, output_level=1):
-    current_version = "3.1.0"
+    current_version = "3.1.1.rc1"
 
     class SparkNLPConfig:
 
@@ -189,4 +189,4 @@ def start(gpu=False, spark23=False, spark24=False, memory="16G", real_time_outpu
 
 
 def version():
-    return '3.1.0'
+    return '3.1.1.rc1'
